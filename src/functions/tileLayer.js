@@ -7,8 +7,8 @@ export const props = {
     default: false,
   },
   subdomains: {
-    type: String,
-    default: "abc",
+    type: Array,
+    default: ['a','b','c'],
   },
   detectRetina: {
     type: Boolean,
